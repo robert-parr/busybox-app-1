@@ -1,19 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: busybox
+  name: busybox1
   namespace: dev
   labels:
-    app: busybox
+    app: busybox1
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: busybox
+      app: busybox1
   template:
     metadata:
       labels:
-        app: busybox
+        app: busybox1
     spec:
       containers:
       - name: busybox-container
