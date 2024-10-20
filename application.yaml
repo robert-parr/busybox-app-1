@@ -9,7 +9,7 @@ spec:
   source:
     repoURL: https://github.com/robert-parr/busybox-app-1.git
     targetRevision: HEAD
-    path: /
+    path: dev
   destination:
     server: https://kubernetes.default.svc
     namespace: dev
